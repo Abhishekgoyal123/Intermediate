@@ -25,14 +25,16 @@ namespace Exercise_4
         }
         public void Clear()
         {
-            //for(int i = 0; i < l1.Count; i++)
-            //{
-            //   l1.Remove(l1[i]);
-            //    Console.WriteLine(l1[i]);
-            //}
-            l1.Clear();
-
             
+            //l1.Clear();
+
+            int length = l1.Count;
+            int i = 0;
+            while (i < length) 
+            {
+                l1.Remove(l1[i]);
+                length --;
+            }
 
         }
 
