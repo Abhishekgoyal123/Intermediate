@@ -15,6 +15,7 @@ try
         choice = Convert.ToInt32(Console.ReadLine());
         switch (choice)
         {
+           
             case 1:
                 sw.start();
                 Console.WriteLine("stopwatch started");

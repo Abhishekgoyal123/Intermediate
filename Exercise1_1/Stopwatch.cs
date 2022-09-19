@@ -9,7 +9,7 @@ namespace Exercise1_1
     public class Stopwatch
     {
         public DateTime startTime;
-
+        
         public DateTime endTime;
 
         public bool isRunning;
