@@ -4,11 +4,13 @@ Console.WriteLine("Hello, World!");
 
 // UPCASTING ........................derived class to base class
 
-Circle c1 = new Circle();
+Shape s1 = new Circle();
 
-Shape s1 = c1;                         // this is possible becuse circle is derived from shape 
+                       // this is possible becuse circle is derived from shape 
 
-s1.
+s1.Print_Shape
+
+
 // DOWNCASTING........................base class to derived class
 
 Shape s2 = new Shape();
