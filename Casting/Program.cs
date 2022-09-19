@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Casting;
+using Casting2;
 Console.WriteLine("Hello, World!");
 
 // UPCASTING ........................derived class to base class

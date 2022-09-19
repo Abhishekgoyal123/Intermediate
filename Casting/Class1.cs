@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Casting2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Casting
+namespace Casting2
 {
-    public class Shape
+    internal class Shape
     {
         public void Print_Shape()
         {
@@ -20,5 +21,12 @@ namespace Casting
         {
             Console.WriteLine("this is circle");
         }
+    }
+}
+namespace Casting1
+{
+    public class Class2
+    {
+        Casting2.Shape ss = new Shape();
     }
 }
