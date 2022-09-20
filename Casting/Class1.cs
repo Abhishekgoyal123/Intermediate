@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 
 namespace Casting2
 {
-    internal class Shape
+    public class Shape
     {
         public void Print_Shape()
         {
             Console.WriteLine("this is shape");
+        }
+
+        public  virtual void abcd()
+        {
+            Console.WriteLine("common parent shape");
         }
     }
 
@@ -21,12 +26,12 @@ namespace Casting2
         {
             Console.WriteLine("this is circle");
         }
+
+        public override void abcd()
+        {
+            Console.WriteLine("common child circle");
+        }
+
     }
 }
-namespace Casting1
-{
-    public class Class2
-    {
-        Casting2.Shape ss = new Shape();
-    }
-}
+

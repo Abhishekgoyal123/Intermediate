@@ -4,11 +4,12 @@ Console.WriteLine("Hello, World!");
 
 // UPCASTING ........................derived class to base class
 
-Shape s1 = new Circle();
+Circle c1 = new Circle();
 
-                       // this is possible becuse circle is derived from shape 
+Shape s1 = c1;
+// this is possible becuse circle is derived from shape 
 
-s1.Print_Shape
+s1.Print_Shape();
 
 
 // DOWNCASTING........................base class to derived class
@@ -20,4 +21,6 @@ Shape s2 = new Shape();
                                          // for downcasting we need to do explicit casting
 
 Circle c2 = (Circle)s2;
+
+
 
