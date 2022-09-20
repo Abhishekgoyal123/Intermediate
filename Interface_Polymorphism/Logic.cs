@@ -11,6 +11,9 @@ namespace Interface_Polymorphism
         public void notification_Logic(INotification noti)  
         {
             noti.SendNotification();
+            noti.add(1, 2);
         }
+        //INotification noti ;
+        //noti.
     }
 }

@@ -16,7 +16,7 @@ do
 
         case 1:
             SqlConnection sql = new SqlConnection(abc);
-            DbCommand dc = new DbCommand(sql,abc);
+            DbCommand dc = new DbCommand(,abc);
             dc.Execute();
 
             break;

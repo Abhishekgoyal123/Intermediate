@@ -8,11 +8,15 @@ namespace Interface_Polymorphism
 {
     public interface INotification
     {
+        
         void SendNotification();
 
-        void add(int a, int b)
+       void add(int a, int b)
         {
             Console.WriteLine($"add = {a+b}");
         }
+
+
+
     }
 }
