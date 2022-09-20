@@ -10,10 +10,10 @@ namespace Exercise_6
     {
         //public Workflow wf;
         
-        public void Run(Workflow wf)
+        public void Run(List<IActivity> workflow)
         {
            
-            foreach(var item in wf.l1)
+            foreach(var item in workflow)
             {
                 item.Execute();
             }

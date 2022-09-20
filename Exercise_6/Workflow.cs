@@ -12,8 +12,8 @@ namespace Exercise_6
 
         public Workflow(IActivity activity)
         {
-            l1 = new List<IActivity>();
-            l1.Add(activity);
+        //    l1 = new List<IActivity>();
+        //    l1.Add(activity);
         }
 
        
