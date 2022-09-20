@@ -5,6 +5,6 @@ Console.WriteLine("Hello, World!");
 Logic l1 = new Logic();
 
 Email_Notification em = new Email_Notification();
-l1.notification_Logic(em);
+l1.notification_Logic(new Email_Notification());
 
 
