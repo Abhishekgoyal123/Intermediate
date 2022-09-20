@@ -21,19 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1_1", "Exercise1_1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1_2", "Exercise1_2\Exercise1_2.csproj", "{6922D0F1-7615-4E86-83C8-F30EACE57C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifier_1", "AccessModifier_1\AccessModifier_1.csproj", "{A59718C2-9D93-472A-8BCD-8C798272D420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifier_1", "AccessModifier_1\AccessModifier_1.csproj", "{A59718C2-9D93-472A-8BCD-8C798272D420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifier_2", "AccessModifier_2\AccessModifier_2.csproj", "{EAAA09B2-E7CF-4EDB-9E0B-C9B94A904451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifier_2", "AccessModifier_2\AccessModifier_2.csproj", "{EAAA09B2-E7CF-4EDB-9E0B-C9B94A904451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{3A69F99C-18D2-4525-9CBC-4C0CCBBB9BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casting", "Casting\Casting.csproj", "{3A69F99C-18D2-4525-9CBC-4C0CCBBB9BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4", "Exercise_4\Exercise_4.csproj", "{66319ACA-6A43-4163-9283-01DFB93B5C20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4", "Exercise_4\Exercise_4.csproj", "{66319ACA-6A43-4163-9283-01DFB93B5C20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_5", "Exercise_5\Exercise_5.csproj", "{A70FD9E7-CC62-4854-95CA-B71860A38C56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_5", "Exercise_5\Exercise_5.csproj", "{A70FD9E7-CC62-4854-95CA-B71860A38C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5_2", "Exercise5_2\Exercise5_2.csproj", "{F0678757-50A7-4B31-B93C-490B17472039}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise5_2", "Exercise5_2\Exercise5_2.csproj", "{F0678757-50A7-4B31-B93C-490B17472039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{A475D5D6-8B66-4D1D-9C13-1D3B4F5D2009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csproj", "{A475D5D6-8B66-4D1D-9C13-1D3B4F5D2009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_Polymorphism", "Interface_Polymorphism\Interface_Polymorphism.csproj", "{9C31B81D-4D2A-4145-A538-AC1409EACA80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{A475D5D6-8B66-4D1D-9C13-1D3B4F5D2009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A475D5D6-8B66-4D1D-9C13-1D3B4F5D2009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A475D5D6-8B66-4D1D-9C13-1D3B4F5D2009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C31B81D-4D2A-4145-A538-AC1409EACA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C31B81D-4D2A-4145-A538-AC1409EACA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C31B81D-4D2A-4145-A538-AC1409EACA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C31B81D-4D2A-4145-A538-AC1409EACA80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
