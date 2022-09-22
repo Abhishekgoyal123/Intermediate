@@ -6,11 +6,39 @@ using System.Threading.Tasks;
 
 namespace AccessModifier_2
 {
-    internal class Class2
+
+
+    public class Class2
     {
-        public int add2(int a, int b)
+        protected string mame;
+        protected int add2(int a, int b)
         {
             return a + b;
         }
     }
+
+    public class child : Class2
+    {
+
+        public void nain()
+        {
+            
+           add2(1, 2);
+            Console.WriteLine(abcd);
+            
+        }
+
+        public void dis(int a , int b)
+        {
+            int c = add2(a , b);
+            Console.WriteLine(a);
+
+        }
+
+
+
+
+
+    }
 }
+

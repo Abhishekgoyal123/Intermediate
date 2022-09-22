@@ -2,6 +2,10 @@
 using AccessModifier_2;
 Console.WriteLine("Hello, World!");
 
-Class2 c2 = new Class2();
-c2.add2(2, 3);
+child c  = new child();
+child c1 = new child();
+c.nain
+
+
+
 

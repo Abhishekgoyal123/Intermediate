@@ -4,12 +4,19 @@ Console.WriteLine("Hello, World!");
 
 // UPCASTING ........................derived class to base class
 
+// IT IS DONE WHEN WE HAVE COMMON METHODS IN BOTH BASD AND DERIVED CLASS AND WHEN WE WANT TO ACCESS THE METHOD OF DERIVED CLASS.
+
 Circle c1 = new Circle();
-
+c1.
 Shape s1 = c1;
-// this is possible becuse circle is derived from shape 
+s1.abcd();                      //derived class method
 
-s1.Print_Shape();
+Shape s22 = new Circle();
+s22.abcd();
+
+c1.abcd();
+s22.
+s1.Print_Shape();                                       // this is possible becuse circle is derived from shape 
 
 
 // DOWNCASTING........................base class to derived class

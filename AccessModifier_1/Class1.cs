@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessModifier_1
 {
-    public class Class1
+    internal class Class1
     {
         public int a = 0;
     }

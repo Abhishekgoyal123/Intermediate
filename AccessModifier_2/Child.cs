@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AccessModifier_1;
 
-
-namespace abcd
+namespace AccessModifier_2
 {
-    internal class Class2
+    public class Child : Class2
     {
-        Class1 c1 = new Class1();
-        
+        public void dis()
+        {
+           //
+        }
     }
 }
